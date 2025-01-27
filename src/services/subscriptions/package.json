@@ -1,0 +1,20 @@
+{
+  "name": "subscriptions",
+  "version": "1.0.0",
+  "description": "Subscription Lambda Function",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
